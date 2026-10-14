@@ -19,12 +19,17 @@ public abstract class Sensor extends DispositivoElectronico {
     // metodo abstracto
     public abstract double leerValor();
 
-    public String getUnidadMedida() { return unidadMedida; }
-    public void setUnidadMedida(String unidadMedida) { this.unidadMedida = unidadMedida; }
+    public String getUnidadMedida() {
+        return unidadMedida;
+    }
+    public void setUnidadMedida(String unidadMedida) {
+        this.unidadMedida = unidadMedida;
+    }
 
-    public boolean isEstaCalibrado() { return estaCalibrado; }
-    public void setEstaCalibrado(boolean estaCalibrado) { this.estaCalibrado = estaCalibrado; }
-}
-
-
+    public boolean isEstaCalibrado() {
+        return estaCalibrado;
+    }
+    public void setEstaCalibrado(boolean estaCalibrado) {
+        this.estaCalibrado = estaCalibrado;
+    }
 }
